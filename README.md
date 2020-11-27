@@ -7,14 +7,13 @@ Adapt practically persistence steadiness strategies working at Windows 10 utiliz
 
 •	Administrator account with UAC set on default settings needed.
 # Usage
-Run executable from command line: embed [Key] [Param] or embed-sr [Key] [Param]. See "Run examples" underneath for more info.
+Run executable from command line: embed [Param] or embed-sr [Param]. See "Run examples" underneath for more info.
 
 Run examples:
 
-•	embed.exe 31
+•	embed.exe "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
 
-•	embed-sr.exe 2038
+•	echo embed.exe %HOMEPATH%"\Documents\Windowspowershell\profile.ps1
 
-•	embed.exe 31  c:\Windows Persistent\Embed\notepad64.bin
+•	schtasks /create /sc onlogon /tn AdobeFlashSync /tr "embed.exe"
 
-•	embed-sr.exe 2038 c:\Windows Persistent\Embed\notepad64.bin
