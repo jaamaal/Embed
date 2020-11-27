@@ -13,7 +13,7 @@ Run examples:
 
 •	embed.exe "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
 
-•	echo embed.exe %HOMEPATH%"\Documents\Windowspowershell\profile.ps1
+•	echo embed-sr.exe %HOMEPATH%"\Documents\Windowspowershell\profile.ps1
 
 •	schtasks /create /sc onlogon /tn AdobeFlashSync /tr "embed.exe"
 
