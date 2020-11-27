@@ -11,9 +11,9 @@ Run executable from command line: embed [Param] or embed-sr [Param]. See "Run ex
 
 Run examples:
 
-•	embed.exe "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
+*	embed.exe "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
 
-•	echo embed-sr.exe %HOMEPATH%"\Documents\Windowspowershell\profile.ps1
+*	echo embed-sr.exe %HOMEPATH%"\Documents\Windowspowershell\profile.ps1
 
-•	schtasks /create /sc onlogon /tn AdobeFlashSync /tr "embed.exe"
+*	schtasks /create /sc onlogon /tn AdobeFlashSync /tr "embed.exe"
 
