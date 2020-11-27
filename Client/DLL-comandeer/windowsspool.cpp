@@ -6,7 +6,9 @@
  Author: Shaikh Jamal Uddin (Linkedin: https://www.linkedin.com/in/engrjamal/)
 
 */
-
+#pragma comment(linker,"/export:OpenPrinterA=winsplhlp.OpenPrinterA,@143")
+#pragma comment(linker,"/export:ClosePrinter=winsplhlp.ClosePrinterA,@29")
+#pragma comment(linker,"/export:DocumentPropertiesA=winsplhlp.DocumentPropertiesA,@77")
 
 #include <Windows.h>
 
