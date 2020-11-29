@@ -1,5 +1,6 @@
 # Windows-Persistence
 ![](https://img.shields.io/badge/Windows-Compatible-green.svg)
+
 Real threat actors use different Tactics, Techniques and Procedures (TTPs). One of the strategy is Persistence - an approach to endure a penetrated machine restart and protect admittance to a target environment. There is a ton of spotlight on what strategies use to exploit a specific vulnerability or how their C2 channels & infrastructure resemble.
 
 Adapt practically persistence steadiness strategies working at Windows 10 utilized by sponsored nation-state threat actors, as Turla, ProjectSauron, APT29, EquationGroup, including Stuxnet / Flame.
