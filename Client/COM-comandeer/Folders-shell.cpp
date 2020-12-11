@@ -3,7 +3,7 @@
  Red Team Simulation template
  COM hijacking template
  
- Author: Shaikh Jamal Uddin (Linkedin: https://www.linkedin.com/in/engrjamal/).
+ Author: Shaikh Jamal Uddin (Linkedin: https://www.linkedin.com/in/engrjamal/ )
 
 */
 #include <Windows.h>
